@@ -1,0 +1,11 @@
+{
+  "name": "utils-alignment",
+  "repo": "atomic-css/utils-alignment",
+  "description": "Utilities for CSS alignment",
+  "version": "1.0.0-beta",
+  "styles": [
+    "alignment.css"
+  ],
+  "author": "Lukáš Mladý",
+  "license": "MIT"
+}

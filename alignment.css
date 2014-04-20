@@ -1,0 +1,227 @@
+/* ==========================================================================
+   Alignment utilities
+   ========================================================================== */
+
+/* Inline axis alignment
+   ========================================================================== */
+
+/**
+ * Content alignment.
+ *
+ * Flex container: justifies items in its rows.
+ */
+
+/**
+ * Visualisation: |X|X|X|------|
+ */
+
+.u-justifyCStart {
+  justify-content: flex-start;
+}
+
+/**
+ * Visualisation: |---|X|X|X|---|
+ */
+
+.u-justifyCCenter {
+  justify-content: center;
+}
+
+/**
+ * Visualisation: |------|X|X|X|
+ */
+
+.u-justifyCEnd {
+  justify-content: flex-end;
+}
+
+/**
+ * Visualisation: |X|---|X|---|X|
+ */
+
+.u-justifyCBetween {
+  justify-content: space-between;
+}
+
+/**
+ * Visualisation: |-|X|--|X|--|X|-|
+ */
+
+.u-justifyCAround {
+  justify-content: space-around;
+}
+
+/* Stacking (block) axis alignment
+   ========================================================================== */
+
+/**
+ * Content alignment.
+ *
+ * Flex container: aligns rows.
+ */
+
+/**
+ * Visualisation: |XXXXXXXXXX|
+ *                |YYYYYYYYYY|
+ *                |ZZZZZZZZZZ|
+ *                |----------|
+ *                |----------|
+ *                |----------|
+ *                |----------|
+ *                |----------|
+ *                |----------|
+ */
+
+.u-alignCStart {
+  align-content: flex-start;
+}
+
+/**
+ * Visualisation: |----------|
+ *                |----------|
+ *                |----------|
+ *                |XXXXXXXXXX|
+ *                |YYYYYYYYYY|
+ *                |ZZZZZZZZZZ|
+ *                |----------|
+ *                |----------|
+ *                |----------|
+ */
+
+.u-alignCCenter {
+  align-content: center;
+}
+
+/**
+ * Visualisation: |----------|
+ *                |----------|
+ *                |----------|
+ *                |----------|
+ *                |----------|
+ *                |----------|
+ *                |XXXXXXXXXX|
+ *                |YYYYYYYYYY|
+ *                |ZZZZZZZZZZ|
+ */
+
+.u-alignCEnd {
+  align-content: flex-end;
+}
+
+/**
+ * Visualisation: |XXXXXXXXXX|
+ *                |----------|
+ *                |----------|
+ *                |----------|
+ *                |YYYYYYYYYY|
+ *                |----------|
+ *                |----------|
+ *                |----------|
+ *                |ZZZZZZZZZZ|
+ */
+
+.u-alignCBetween {
+  align-content: space-between;
+}
+
+/**
+ * Visualisation: |----------|
+ *                |XXXXXXXXXX|
+ *                |----------|
+ *                |----------|
+ *                |YYYYYYYYYY|
+ *                |----------|
+ *                |----------|
+ *                |ZZZZZZZZZZ|
+ *                |----------|
+ */
+
+.u-alignCAround {
+  align-content: space-around;
+}
+
+/**
+ * Visualisation: |XXXXXXXXXX|
+ *                |XXXXXXXXXX|
+ *                |XXXXXXXXXX|
+ *                |YYYYYYYYYY|
+ *                |YYYYYYYYYY|
+ *                |YYYYYYYYYY|
+ *                |ZZZZZZZZZZ|
+ *                |ZZZZZZZZZZ|
+ *                |ZZZZZZZZZZ|
+ */
+
+.u-alignCStretch {
+  align-content: stretch;
+}
+
+/**
+ * Items alignment.
+ *
+ * Flex container: aligns items in rows.
+ */
+
+/**
+ * Visualisation: |-|X|-|Y|-|Z|-|
+ *                |-|X|-----|Z|-|
+ *                |-|X|-----|Z|-|
+ *                |---------|Z|-|
+ *                |---------|Z|-|
+ */
+
+.u-alignIStart {
+  align-items: flex-start;
+}
+
+.u-alignSStart {
+  align-self: flex-start;
+}
+
+/**
+ * Visualisation: |---------|Z|-|
+ *                |-|X|-----|Z|-|
+ *                |-|X|-|Y|-|Z|-|
+ *                |-|X|-----|Z|-|
+ *                |---------|Z|-|
+ */
+
+.u-alignICenter {
+  align-items: center;
+}
+
+.u-alignSCenter {
+  align-self: center;
+}
+
+/**
+ * Visualisation: |---------|Z|-|
+ *                |---------|Z|-|
+ *                |-|X|-----|Z|-|
+ *                |-|X|-----|Z|-|
+ *                |-|X|-|Y|-|Z|-|
+ */
+
+.u-alignIEnd {
+  align-items: flex-end;
+}
+
+.u-alignSEnd {
+  align-self: flex-end;
+}
+
+/**
+ * Visualisation: |-|X|-|Y|-|Z|-|
+ *                |-|X|-|Y|-|Z|-|
+ *                |-|X|-|Y|-|Z|-|
+ *                |-|X|-|Y|-|Z|-|
+ *                |-|X|-|Y|-|Z|-|
+ */
+
+.u-alignIStretch {
+  align-items: stretch;
+}
+
+.u-alignSStretch {
+  align-self: stretch;
+}
