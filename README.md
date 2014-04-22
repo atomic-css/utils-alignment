@@ -1,6 +1,6 @@
 # Atomic utilities: alignment
 
-Utilities for alignment. Only applicable to flex layout.
+Utilities for alignment. Currently only applicable to flex layout.
 See [other utilities](https://github.com/atomic-css/utils).
 
 Read more about [Atomic framework](https://github.com/atomic-css/atomic).
