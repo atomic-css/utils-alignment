@@ -225,3 +225,75 @@
 .u-alignSStretch {
   align-self: stretch !important;
 }
+
+/* Margin distribution
+   ========================================================================== */
+
+/**
+ * Works for:
+ * - Flex items
+ * - Absolutely positioned elements with width and height defined
+ */
+
+/**
+ * Distribute free horizontal space to right margin, aligning the subject
+ * to left.
+ */
+
+.u-sendLeft {
+  margin-right: auto !important;
+}
+
+/**
+ * Distribute free horizontal space to left margin, aligning the subject
+ *  to right.
+ */
+
+.u-sendRight {
+  margin-left: auto !important;
+}
+
+/**
+ * Distribute free vertical space to top margin, aligning the subject to bottom.
+ */
+
+.u-sendBottom {
+  margin-top: auto !important;
+}
+
+/**
+ * Distribute free vertical space to bottom margin, aligning the subject to top.
+ */
+
+.u-sendTop {
+  margin-bottom: auto !important;
+}
+
+/**
+ * Distribute free vertical and horizontal space to all margins equally,
+ * centering the subject both horizontally and vertically.
+ */
+
+.u-centerize {
+  margin: auto !important;
+}
+
+/**
+ * Distribute free horizontal space to left and right margin equally, centering
+ * the subject horizontally.
+ */
+
+.u-centerizeHorizontally {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/**
+ * Distribute free vertical space to top and bottom margin equally, centering
+ * the subject vertically.
+ */
+
+.u-centerizeVertically {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}

@@ -46,6 +46,16 @@ All classes follow the same pattern: `u-<justify|align><C|I|S><Direction>`.
 * `.u-alignSEnd`
 * `.u-alignSStretch`
 
+### Margin distribution
+
+* `.u-sendLeft`
+* `.u-sendRight`
+* `.u-sendTop`
+* `.u-sendBottom`
+* `.u-centerize`
+* `.u-centerizeHorizontally`
+* `.u-centerizeVertically`
+
 ## Browser support
 
 * Google Chrome (latest)
