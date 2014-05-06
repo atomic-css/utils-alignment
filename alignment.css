@@ -16,6 +16,9 @@
  */
 
 .u-justifyCStart {
+  -webkit-box-pack: flex-start !important;
+  -webkit-justify-content: flex-start !important;
+  -ms-flex-pack: flex-start !important;
   justify-content: flex-start !important;
 }
 
@@ -24,6 +27,9 @@
  */
 
 .u-justifyCCenter {
+  -webkit-box-pack: center !important;
+  -webkit-justify-content: center !important;
+  -ms-flex-pack: center !important;
   justify-content: center !important;
 }
 
@@ -32,6 +38,9 @@
  */
 
 .u-justifyCEnd {
+  -webkit-box-pack: end !important;
+  -webkit-justify-content: flex-end !important;
+  -ms-flex-pack: end !important;
   justify-content: flex-end !important;
 }
 
@@ -40,6 +49,9 @@
  */
 
 .u-justifyCBetween {
+  -webkit-box-pack: justify !important;
+  -webkit-justify-content: space-between !important;
+  -ms-flex-pack: justify !important;
   justify-content: space-between !important;
 }
 
@@ -48,6 +60,8 @@
  */
 
 .u-justifyCAround {
+  -webkit-justify-content: space-around !important;
+  -ms-flex-pack: distribute !important;
   justify-content: space-around !important;
 }
 
@@ -73,6 +87,8 @@
  */
 
 .u-alignCStart {
+  -webkit-align-content: flex-start !important;
+  -ms-flex-line-pack: start !important;
   align-content: flex-start !important;
 }
 
@@ -89,6 +105,8 @@
  */
 
 .u-alignCCenter {
+  -webkit-align-content: center !important;
+  -ms-flex-line-pack: center !important;
   align-content: center !important;
 }
 
@@ -105,6 +123,8 @@
  */
 
 .u-alignCEnd {
+  -webkit-align-content: flex-end !important;
+  -ms-flex-line-pack: end !important;
   align-content: flex-end !important;
 }
 
@@ -121,6 +141,8 @@
  */
 
 .u-alignCBetween {
+  -webkit-align-content: space-between !important;
+  -ms-flex-line-pack: justify !important;
   align-content: space-between !important;
 }
 
@@ -137,6 +159,8 @@
  */
 
 .u-alignCAround {
+  -webkit-align-content: space-around !important;
+  -ms-flex-line-pack: distribute !important;
   align-content: space-around !important;
 }
 
@@ -153,6 +177,8 @@
  */
 
 .u-alignCStretch {
+  -webkit-align-content: stretch !important;
+  -ms-flex-line-pack: stretch !important;
   align-content: stretch !important;
 }
 
@@ -171,10 +197,15 @@
  */
 
 .u-alignIStart {
+  -webkit-box-align: start !important;
+  -webkit-align-items: flex-start !important;
+  -ms-flex-align: start !important;
   align-items: flex-start !important;
 }
 
 .u-alignSStart {
+  -webkit-align-self: flex-start !important;
+  -ms-flex-item-align: start !important;
   align-self: flex-start !important;
 }
 
@@ -187,10 +218,15 @@
  */
 
 .u-alignICenter {
+  -webkit-box-align: center !important;
+  -webkit-align-items: center !important;
+  -ms-flex-align: center !important;
   align-items: center !important;
 }
 
 .u-alignSCenter {
+  -webkit-align-self: center !important;
+  -ms-flex-item-align: center !important;
   align-self: center !important;
 }
 
@@ -203,10 +239,15 @@
  */
 
 .u-alignIEnd {
+  -webkit-box-align: end !important;
+  -webkit-align-items: flex-end !important;
+  -ms-flex-align: end !important;
   align-items: flex-end !important;
 }
 
 .u-alignSEnd {
+  -webkit-align-self: flex-end !important;
+  -ms-flex-item-align: end !important;
   align-self: flex-end !important;
 }
 
@@ -219,10 +260,15 @@
  */
 
 .u-alignIStretch {
+  -webkit-box-align: stretch !important;
+  -webkit-align-items: stretch !important;
+  -ms-flex-align: stretch !important;
   align-items: stretch !important;
 }
 
 .u-alignSStretch {
+  -webkit-align-self: stretch !important;
+  -ms-flex-item-align: stretch !important;
   align-self: stretch !important;
 }
 
